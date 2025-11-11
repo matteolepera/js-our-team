@@ -52,8 +52,8 @@ let cardOutput = "";
 for (let i = 0; i < teamMembers.length; i++) {
   const curTeamMembers = teamMembers[i];
   const { name, role, email, img } = curTeamMembers;
-  const card = ` <div class="team-card col-30 mt-30 d-flex justify-center text-center g-5">
-                <div class="member-image">
+  const card = ` <div class="team-card col-30 mt-30 d-flex text-center align-center g-5">
+                <div class="member-image pl-5">
                     <img src="${img}" alt="...">
                 </div>
                 <div class="member-info">
