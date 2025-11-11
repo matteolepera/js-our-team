@@ -6,7 +6,7 @@
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 a {
@@ -73,14 +73,13 @@ a {
     background-color: red;
 }
 
-.col-30 {
+.team-card {
     width: 30%;
 }
 
 .member-container .team-card {
     flex-direction: row;
     height: 100px;
-    width: 25%;
     border-radius: 10px;
     color: white;
     cursor: pointer;
@@ -100,4 +99,5 @@ a {
 .member-image img {
     border-radius: 10px;
     height: 90px;
+    object-fit: contain;
 }

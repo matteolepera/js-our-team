@@ -1,0 +1,16 @@
+/* TABLET-768 */
+@media screen and (max-width: 768px) {
+    .team-card {
+        width: 40%;
+    }
+
+}
+
+/* MOBILE-375 */
+
+@media screen and (max-width: 480px) {
+    .team-card {
+        width: 100%;
+    }
+
+}
